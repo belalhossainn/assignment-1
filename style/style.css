@@ -25,7 +25,8 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #66ddad;
 }
 
@@ -119,7 +120,7 @@
   padding: 32px 32px;
 }
 
-.vision-sub-section:hover{
+.vision-sub-section:hover {
   background-color: #25a872;
 }
 
@@ -278,10 +279,12 @@
   border: 1px solid #ddd;
   margin: 0 5px;
 }
+
 .donate-money:hover {
-  background-color: #d8f3dc; 
+  background-color: #d8f3dc;
   border-color: #95d5b2;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 
 .donate-input {
@@ -376,24 +379,23 @@
 
 /* Challenges work 2 */
 
-.quote{
+.quote {
   background-color: white;
   padding: 50px 20px;
   border-radius: 10px;
-  background-image: url(/assets/quote-bg.png);
+  background-image: url(./assets/quote-bg.png);
   background-repeat: no-repeat;
   background-position: 28px 50px;
 }
 
-.quote-sub{
+.quote-sub {
   font-size: medium;
   margin-top: 15px;
   margin-bottom: 5px;
 }
 
-.quote-note{
+.quote-note {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
   font-weight: 400;
 }
-
