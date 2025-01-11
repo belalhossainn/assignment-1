@@ -2,7 +2,26 @@
   font-family: "Fira Sans", serif;
   font-weight: 100;
   font-style: normal;
-}
+  }
+
+  /* shared style */
+  
+  .btn {
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 34px;
+    border: none;
+    margin-top: -12px;
+    cursor: pointer;
+  }
+
+  .secondary-bg{
+    background-color: #F1F1F3;
+  }
+
 /* style header */
 
 .header {
@@ -41,17 +60,84 @@
   color: rgba(14, 14, 14, 0.5);
 }
 
+/* main section style */
 
+.main{
+  width: 1280px;
+  margin: 0 auto;
+  gap: 80px;
+  margin-top: 80px;
+}
 
-/* shared style */
+/* style vision section */
 
-.btn {
-  background-color: rgba(0, 106, 80, 1);
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 1);
-  padding: 17px 34px;
-  border: none;
-  margin-top: -12px;
+.vision-heading{
+font-size: 40px;
+font-weight: bold;
+color: rgba(14, 14, 14, 1);
+margin-top: 24px;
+}
+
+.vision description{
+  font-size: 15px;
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400;
+}
+
+ /* vision sub section */
+
+ .vision-section{
+  display: flex;
+  margin-top: 35px;
+  gap: 24px;  
+}
+
+.vision-sub-section{
+  width: 410.67px;
+  border-radius: 16px;
+  padding: 32px 32px;
+}
+
+.vision-sub-heading{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.vision-sub-description{
+  font-size: 15px;
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400;
+}
+
+.vision-button{
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgba(84, 144, 245, 1);
+  margin-top: 24px;
+ 
+}
+
+ /* Individual section colors */
+
+ .section1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.section2 {
+  background-color: rgba(198, 228, 214, 1);
+}
+.section3 {
+  background-color: rgba(247, 235, 207, 1);
+}
+
+.button1{
+  background-color: rgba(84, 144, 245, 1);
+  margin-top: 8px;
+}
+.button2{
+  background-color: rgba(9, 161, 92, 1);
+}
+.button3{
+  background-color: rgba(255, 194, 57, 1);
 }
