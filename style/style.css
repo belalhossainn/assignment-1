@@ -53,7 +53,6 @@
   border-radius: 24px;
   width: 1280px;
   margin: 0 auto;
-
 }
 
 /* style banner  */
@@ -280,8 +279,8 @@
   margin: 0 5px;
 }
 .donate-money:hover {
-  background-color: #d8f3dc; /* Attention-grabbing background */
-  border-color: #95d5b2; /* Emphasize border on hover */
+  background-color: #d8f3dc; 
+  border-color: #95d5b2;
   transform: scale(1.05); }
 
 
@@ -367,12 +366,7 @@
   justify-content: center;
   margin-top: -01px;
   margin-left: -11px;
-  /* transition: background-color 0.3s ease; */
 }
-
-/* .newsletter-button:hover {
-  background-color: #1b4332;
-} */
 
 .Newsletter-note {
   font-size: 12px;
@@ -381,3 +375,25 @@
 }
 
 /* Challenges work 2 */
+
+.quote{
+  background-color: white;
+  padding: 50px 20px;
+  border-radius: 10px;
+  background-image: url(/assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 28px 50px;
+}
+
+.quote-sub{
+  font-size: medium;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.quote-note{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400;
+}
+
