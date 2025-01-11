@@ -292,5 +292,79 @@
   padding: 17px 34px;
   font-size: 17px;
   font-weight: 600;
+}
 
+/* Challenges work */
+
+.Newsletter{
+  background-color: #C6E4D6;
+  padding: 50px 50px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Newsletter-heading{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+  .Newsletter-description {
+    font-size: 11px;
+    color: #333;
+    margin-bottom: 24px;
+    max-width: 400px; 
+    margin: 0 auto 24px;
+    line-height: 1.5; 
+  }
+  
+
+
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.Newsletter-input {
+  flex: 1;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px 0 0 8px; 
+  outline: none;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.Newsletter-input:focus {
+  border-color: #95d5b2;
+}
+
+.newsletter-button {
+  padding: 0 20px;
+  height: 50px;
+  color: #fff;
+  background-color: #1b4332;
+  border: none;
+  border-radius: 0 8px 8px 0; 
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -01px;
+  margin-left: -11px;
+}
+
+.newsletter-button:hover {
+  background-color: #1b4332;
+}
+
+.Newsletter-note{
+  font-size: 12px;
+  font-weight: 400;
+  color: #797474;
 }
